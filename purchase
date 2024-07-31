@@ -33,7 +33,7 @@ value="submit">
     function send(){
         alert("hello world");
     }
-    </script>
+</script>
 </form>
 </body>
 </html>
