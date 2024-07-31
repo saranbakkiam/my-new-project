@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>purchase order</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+<h1>
+Please tell about product</h1>
+<form action=”NewServlet”>
+Purchase Order No:<input type=”text” name=”productno”> <br>
+Product Name : <input type=”text” name=”productname”> <br>
+Address:<input type=”text” name=”Address”><br>
+Phone no:<input type=”text” name=”phoneno”><br>
+<p>
+Items to be ordered:
+<select name=”JeanType”>
+<option value=”Lenin”>Lenin</option>
+<option value=”Otto”>OTTO</option>
+<option value=”S-Kumar”>S-Kumar</option>
+<option value=”V-Star”>V-Star</option>
+<option value=”Jockey”>Jockey</option>
+<option value=”Peter”>Peter</option>
+<option value=”Pantaloon”>Pantaloon</option>
+</select>
+<br>
+Ordered Date:<input type=”date” name=”od”> <br>
+Amount:<input type=”number” name=”amt”><br>
+<center><input type="button"
+onclick="send()"
+value="submit">
+<script>
+    function send(){
+        alert("hello world");
+    }
+    </script>
+</form>
+</body>
+</html>
